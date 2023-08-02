@@ -48,3 +48,15 @@ def ClaseAnimal(especie, color):
     '''
     #Tu código aca:
     return 'Funcion incompleta'
+class Animal:
+        def __init__(self, especie, color):
+            self.edad = 0
+            self.especie = especie
+            self.color = color
+        
+        def CumplirAnios(self):
+            self.edad = self.edad + 1 #(self.edad += 1)
+            return self.edad
+        
+            return Animal('especie', 'color')
+        
